@@ -655,10 +655,6 @@ video {
   width: auto;
 }
 
-.max-w-\[1280px\] {
-  max-width: 1280px;
-}
-
 .max-w-\[180px\] {
   max-width: 180px;
 }
@@ -667,20 +663,12 @@ video {
   max-width: 250px;
 }
 
-.max-w-\[1100px\] {
-  max-width: 1100px;
-}
-
 .max-w-\[980px\] {
   max-width: 980px;
 }
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.list-inside {
-  list-style-position: inside;
 }
 
 .list-disc {
@@ -765,16 +753,12 @@ video {
      object-fit: contain;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-4 {
@@ -803,10 +787,6 @@ video {
   padding-top: 2rem;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -823,8 +803,8 @@ video {
   font-family: "Poppins";
 }
 
-.\!text-\[1\.4rem\] {
-  font-size: 1.4rem !important;
+.\!text-\[1rem\] {
+  font-size: 1rem !important;
 }
 
 .text-2xl {
@@ -839,10 +819,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.\!text-\[1rem\] {
-  font-size: 1rem !important;
 }
 
 .\!normal-case {
@@ -1086,20 +1062,8 @@ video {
     margin-bottom: 3rem;
   }
 
-  .md\:mb-24 {
-    margin-bottom: 6rem;
-  }
-
-  .md\:mr-20 {
-    margin-right: 5rem;
-  }
-
   .md\:mb-20 {
     margin-bottom: 5rem;
-  }
-
-  .md\:mr-10 {
-    margin-right: 2.5rem;
   }
 
   .md\:h-\[160px\] {
@@ -1134,14 +1098,6 @@ video {
     padding: 2.5rem;
   }
 
-  .md\:p-8 {
-    padding: 2rem;
-  }
-
-  .md\:p-3 {
-    padding: 0.75rem;
-  }
-
   .md\:p-6 {
     padding: 1.5rem;
   }
@@ -1149,6 +1105,10 @@ video {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:\!text-\[1\.4rem\] {
+    font-size: 1.4rem !important;
   }
 
   .md\:text-4xl {
@@ -1165,10 +1125,6 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:\!text-\[1\.4rem\] {
-    font-size: 1.4rem !important;
-  }
-
   .md\:leading-\[3\.7rem\] {
     line-height: 3.7rem;
   }
@@ -1178,9 +1134,5 @@ video {
   .lg\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
-  }
-
-  .lg\:p-6 {
-    padding: 1.5rem;
   }
 }
